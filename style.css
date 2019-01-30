@@ -1,0 +1,770 @@
+body{
+    background: black;
+    color: white;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+}
+
+.main_visual{
+    width: 100%;
+    background-image: url(img/visual_top_light.jpg);
+    background-position:center top;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+}
+
+.twitter_dammy1{
+    float: left;
+    width: 72%;
+    height: 300px;
+    position: relative;
+    top: -600px;
+}
+
+.twitter_dammy2{
+    float: left;
+    width: 28%;
+    position: relative;
+    top: -600px;
+}
+
+.twitter{
+    width:98%;
+}
+
+.wrap{
+    padding-top: 100px;
+    width: 80%;
+    max-width: 1500px;
+    min-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+.wrap2{
+    padding-top: 100px;
+    width: 100%;
+    max-width: 1500px;
+    min-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+
+.main_image{
+    width: 100%;
+    height: auto;
+}
+
+#regist_button{
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+
+}
+
+.regisbutton a {
+        height: 80px;
+        width: 330px;
+        background: url("img/regisbutton.png") no-repeat;
+        background-size: auto 160px;
+        display: block;
+        text-indent: -9999px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+.regisbutton a:hover {
+        background-position: 0 -80px;
+    }
+
+
+
+
+
+
+
+
+#panx{
+    position: relative;
+    top: -100px;
+}
+
+
+.parallel_01{
+    width: 55%;
+    float:left;
+    text-align: left;
+
+
+}
+.parallel_02{
+    width: 40%;
+    float:left;
+    text-align: left;
+    padding-left: 5%;
+
+}
+
+.parallel_03{
+    width: 45%;
+    float:left;
+    text-align: left;
+    margin: 2.5%;
+}
+
+.clear{
+    clear: both;
+}
+
+.title{
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/*
+.iris{
+    background-image: url("img/IRISback.png"); 
+    background-position:center top;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+    
+}
+*/
+
+#information{
+    position: relative;
+    top: -250px;
+    background-image: url("img/fujinrijin.png");
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+}
+
+#about_panx{
+    background-image: url("img/aboutPanX_top.png");
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+}
+
+
+#cast_staff{
+    position: relative;
+    top: -150px;
+    background-image: url("img/cast.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+}
+
+#registration{
+    background-image: url("img/registraton.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+}
+
+
+
+#access{
+    background-image: url("img/accessback.png");
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    -moz-background-size:100%;
+    background-size:100%;
+}
+
+form {
+    /* フォームをページの中央に置く */
+    margin: 0 auto;
+    width: 600px;
+    /* フォームの範囲がわかるようにする */
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #FF3399;
+}
+
+textarea {
+    /* 複数行のテキストフィールドをラベルにきちんと揃える */
+    vertical-align: top;
+
+    /* テキスト入力に十分な領域を与える */
+    height: 11em;
+
+    /* ユーザが textarea を垂直方向にリサイズできるようにする
+       これが動作しないブラウザもある */
+    resize: vertical;
+}
+
+
+.button {
+    /* ボタンを他のテキストフィールドと同じ場所に置く */
+    padding-left:0px; /* label 要素と同じサイズ */
+}
+button {
+    /* このマージンは、ラベルとテキストフィールドの間のスペースと
+       おおよそ同じスペースを表す */
+    margin-left: .5em;
+    color: white;
+    width: 70px;
+    height: 30px;
+    font-size: 90%;
+    background-color: #FF3399;
+}
+
+
+
+.table{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255,255,255,.7);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    text-align: left;
+    color: black;
+}
+
+
+
+h1 {
+  margin: 0 0 30px 0; /* 上マージン0、右マージン0、下マージン30px、左マージン0 */
+  font-size: 200%; /* 文字サイズを130% */
+  color: white; /* 文字色を#333333 */
+  padding: 5px 10px; /* 上下パディング5ピクセル、左右パディング10px */
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+}
+
+h2 {
+  margin: 0 0 30px 0; /* 上マージン0、右マージン0、下マージン30px、左マージン0 */
+  font-size: 150%; /* 文字サイズを130% */
+  color: white; /* 文字色を#333333 */
+  padding: 0px 10px; /* 上下パディング5ピクセル、左右パディング10px */
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+}
+
+h3 {
+  margin: 0 0 30px 0; /* 上マージン0、右マージン0、下マージン30px、左マージン0 */
+  font-size: 110%; /* 文字サイズを130% */
+  color: white; /* 文字色を#333333 */
+  padding: 0px 10px; /* 上下パディング5ピクセル、左右パディング10px */
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
+}
+
+
+hr{
+    margin-top: -20px;
+}
+
+.pink{
+    color: #FF3399;
+}
+
+.blue{
+    color: #66CCFF;
+}
+
+
+.footer{
+    background-color: #222;
+    height: 30px;
+    padding: 28px;
+    text-align: center;
+    
+}
+
+
+
+/*予約フォーム*/
+.form-control{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 8px;
+    padding-left: 8px;
+    font-size: 90%;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+}
+    
+.label-danger{
+    font-size: 70%;
+    background-color: #FA5882;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-left: 10px;
+}
+
+.btn-default{
+    background-color: #FF0080;
+    color: white;
+    font-size: 90%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+
+
+/*メニュー設定*/
+
+.inner {
+        width: 1100px;
+        margin: 0 auto;
+}
+.inner:after {
+        content: "";
+        clear: both;
+        display: block;
+}
+
+/* header */
+#top-head {
+        font-size: 14px;
+        height: 80px;
+        top: -100px;
+        position: absolute;
+        width: 100%;
+        margin: 100px auto 0;
+        padding-top: 20px;
+        line-height: 1;
+        z-index: 999;
+        background-color: #222;
+}
+#top-head a,
+#top-head {
+        color: #222;
+        text-decoration: none;
+}
+#top-head .inner {
+        position: relative;
+}
+#top-head .logo {
+        float: left;
+        font-size: 36px;
+}
+#global-nav ul {
+        list-style: none;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+}
+#global-nav ul li {
+        float: left;
+        position: relative;
+}
+#global-nav ul li a {
+        padding:0px;
+
+}
+
+/* Btn Hover */
+#global-nav ul li:after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        bottom: -20px;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+}
+/*#global-nav ul li:hover:after {
+        background: #444;
+        bottom: -30px;
+}*/
+/*ボタンホバー*/
+  .hover01 a {
+        height: 79px;
+        width: 180px;
+        background: url("img/01.png") no-repeat;
+        background-size: auto 160px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover01 a:hover {
+        background-position: 0 -80px;
+    }
+    .hover02 a {
+        height: 79px;
+        width: 180px;
+        background: url("img/02.png") no-repeat;
+        background-size: auto 160px;
+        display: block;
+        text-indent: -9999px;
+    }
+
+    .hover02 a:hover {
+        background-position: 0 -80px;
+    }
+
+    .hover03 a {
+        height: 79px;
+        width: 180px;
+        background: url("img/03.png") no-repeat;
+        display: block;
+        background-size: auto 160px;
+        text-indent: -9999px;
+    }
+    .hover03 a:hover {
+        background-position: 0 -80px;
+    }
+    .hover04 a {
+        height: 79px;
+        width: 180px;
+        background: url("img/04.png") no-repeat;
+        background-size: auto 160px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover04 a:hover {
+        background-position: 0 -80px;
+    }
+    .hover05 a {
+        height: 79px;
+        width: 180px;
+        background: url("img/05.png") no-repeat;
+        background-size: auto 160px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover05 a:hover {
+        background-position: 0 -80px;
+    }
+
+/* Fixed */
+#top-head.fixed {
+        margin-top: 0px;
+        top: 0;
+        position: fixed;
+        padding-top: 20px;
+        height: 70px;
+        background: #444;
+        background: rgba(30,30,30,.7);
+        transition: top 0.65s ease-in;
+        -webkit-transition: top 0.65s ease-in;
+        -moz-transition: top 0.65s ease-in;
+}
+#top-head.fixed .logo {
+        font-size: 24px;
+        color: #333;
+}
+#top-head.fixed #global-nav ul li a {
+        color: #333;
+        padding: 0px;
+}
+
+/* Fixed Btn Hover */
+/*
+#top-head.fixed #global-nav ul li:after {
+        bottom: -10px;
+}
+#top-head.fixed #global-nav ul li:hover:after {
+        background: #0062B8;
+        bottom: -20px;
+}*/
+
+/* Transition */
+/*
+#top-head,
+#top-head .logo,
+#global-nav ul li,
+#global-nav ul li a {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+}
+*/
+
+/* Toggle Button */
+#nav-toggle {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        z-index: 101;
+}
+
+#nav-toggle div {
+        position: relative;
+}
+#nav-toggle span {
+        display: block;
+        position: absolute;
+        height: 8px;
+        width: 100%;
+        background: #666;
+        left: 0;
+        -webkit-transition: .35s ease-in-out;
+        -moz-transition: .35s ease-in-out;
+        transition: .35s ease-in-out;
+}
+#nav-toggle span:nth-child(1) {
+        top: 15px;
+}
+#nav-toggle span:nth-child(2) {
+        top: 45px;
+}
+#nav-toggle span:nth-child(3) {
+        top: 75px;
+}
+
+
+
+
+
+
+/*スマホ*/
+@media screen and (max-width: 980px) {
+
+        .wrap{
+            font-size: 80%;
+            padding-top: 100px;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        #main-visual {
+                height: 100px;
+        }
+    
+        .wrap2{
+            font-size: 120%;
+            padding-top: 100px;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    
+        .parallel_01{
+            font-size: 20px;
+        }
+    
+        .parallel_02{
+            font-size: 20px;
+        }
+    
+        .parallel_03{
+            font-size: 20px;
+        }
+    
+        .staff {
+            font-size: 20px;
+        }
+        
+        #top-head,
+        .inner {
+                width: 100%;
+                padding: 0;
+        }
+        #top-head {
+                top: 0;
+                position: fixed;
+                margin-top: 0;
+                height: 110px;
+        }
+        /* Fixed reset */
+        #top-head.fixed {
+                padding-top: 0;
+                background: transparent;
+        }
+
+        #mobile-head {
+                background: rgba(10, 10, 10, .7);
+                width: 100%;
+                height: 110px;
+                z-index: 999;
+                position: relative;
+        }
+        #top-head.fixed .logo,
+        #top-head .logo {
+                position: absolute;
+                left: 10px;
+                top: 30px;
+                color: #333;
+                
+        }
+
+        #global-nav {
+                position: absolute;
+                /* 開いてないときは画面外に配置 */
+                top: -600px;
+                right: 0px;
+                background: #333;
+                width: 270px;
+                height: 600px;
+                text-align: center;
+                padding: 0;
+                -webkit-transition: .5s ease-in-out;
+                -moz-transition: .5s ease-in-out;
+                transition: .5s ease-in-out;
+        }
+        #global-nav ul {
+                list-style: none;
+                position: static;
+                right: 0;
+                bottom: 0;
+                font-size: 11px;
+                
+        }
+        #global-nav ul li {
+                float: none;
+                position: static;
+                
+        }
+        #global-nav ul li:after  {
+                display: none;
+        }
+        #top-head #global-nav ul li a,
+        #top-head.fixed #global-nav ul li a {
+                width: 100%;
+                display: block;
+                color: #fff;
+                padding: 0;
+        }
+    
+    /*ボタンホバー*/
+  .hover01 a {
+        height: 119px;
+        width: auto;
+        background: url("img/01.png") no-repeat;
+        background-size: auto 240px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover01 a:hover {
+        background-position: 0 -120px;
+    }
+    .hover02 a {
+        height: 119px;
+        width: auto;
+        background: url("img/02.png") no-repeat;
+        background-size: auto 240px;
+        display: block;
+        text-indent: -9999px;
+    }
+
+    .hover02 a:hover {
+        background-position: 0 -120px;
+    }
+
+    .hover03 a {
+        height: 119px;
+        width: auto;
+        background: url("img/03.png") no-repeat;
+        background-size: auto 240px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover03 a:hover {
+        background-position: 0 -120px;
+    }
+    .hover04 a {
+        height: 120px;
+        width: auto;
+        background: url("img/04.png") no-repeat;
+        background-size: auto 240px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover04 a:hover {
+        background-position: 0 -120px;
+    }
+    .hover05 a {
+        height: 119px;
+        width: auto;
+        background: url("img/05.png") no-repeat;
+        background-size: auto 240px;
+        display: block;
+        text-indent: -9999px;
+    }
+    .hover05 a:hover {
+        background-position: 0 -120px;
+    }
+    
+        #nav-toggle {
+                display: block;
+        }
+        /* #nav-toggle 切り替えアニメーション */
+        .open #nav-toggle span:nth-child(1) {
+                top: 50px;
+                -webkit-transform: rotate(315deg);
+                -moz-transform: rotate(315deg);
+                transform: rotate(315deg);
+        }
+        .open #nav-toggle span:nth-child(2) {
+                width: 0;
+                left: 50%;
+        }
+        .open #nav-toggle span:nth-child(3) {
+                top: 50px;
+                -webkit-transform: rotate(-315deg);
+                -moz-transform: rotate(-315deg);
+                transform: rotate(-315deg);
+        }
+        /* #global-nav スライドアニメーション */
+        .open #global-nav {
+                /* #global-nav top + #mobile-head height */
+                -moz-transform: translateY(710px);
+                -webkit-transform: translateY(710px);
+                transform: translateY(710px);
+        }
+
+}
